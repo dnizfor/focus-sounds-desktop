@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+
+        <audio src="../mp3/rain.mp3" loop id="rain"> </audio>
+        <audio src="../mp3/fire.mp3" loop id="fire"> </audio>
+        <audio src="../mp3/sea.mp3" loop id="sea"> </audio>
+        <audio src="../mp3/bird.mp3" loop id="bird"> </audio>
+
+    </div>
+    <div  class="container">    
+    
+        <h1>Focus Sounds</h1>
+
+        <div>
+            
+            <button onclick="rain()" id="rainBut"> </button>
+            <button onclick="fire()" id="fireBut"></button>
+            <button onclick="sea()" id="seaBut"></button>
+            <button onclick="bird()" id="birdBut"></button>
+        </div>
+    </div>
+    
+
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
